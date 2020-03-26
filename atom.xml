@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wslzxxxx.github.io</id>
     <title>程序员豆豆</title>
-    <updated>2020-03-26T04:02:32.947Z</updated>
+    <updated>2020-03-26T05:13:59.716Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wslzxxxx.github.io"/>
     <link rel="self" href="https://wslzxxxx.github.io/atom.xml"/>
@@ -16,10 +16,37 @@
         <link href="https://wslzxxxx.github.io/post/java-ji-chu-01/">
         </link>
         <updated>2018-03-01T01:42:45.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>1.什么是Java语言</strong><br>
+        <content type="html"><![CDATA[<!-- more -->
+<p><strong>1.什么是Java语言</strong><br>
 Java语言是美国Sun公司（Stanford University Network），在1995年推出的高级的编程语言。所谓编程语言，是 计算机的语言，人们可以使用编程语言对计算机下达命令，让计算机完成人们需要的功能。<br>
 <img src="https://wslzxxxx.github.io/post-images/1585187199611.jpg" alt="" loading="lazy"><br>
-1111</p>
+<strong>2.Java语言的发展史(了解)</strong><br>
+	1995年Sun公司发布Java1.0版本<br>
+	1997年发布Java 1.1版本<br>
+	1998年发布Java 1.2版本<br>
+	2000年发布Java 1.3版本<br>
+	2002年发布Java 1.4版本<br>
+	2004年发布Java 1.5版本<br>
+	2006年发布Java 1.6版本<br>
+	2009年Oracle甲骨文公司收购Sun公司，并于2011发布Java 1.7版本<br>
+	2014年发布Java 1.8版本<br>
+	2017年发布Java 9.0版本<br>
+<strong>3.Java语言有什么用</strong><br>
+Java语言主要应用在互联网程序的开发领域。常见的互联网程序比如天猫、京东、物流系统、网银系统等，以及服 务器后台处理大数据的存储、查询、数据挖掘等也有很多应用。<br>
+<strong>4.Java语言有什么特点</strong><br>
+	 简单性		<br>
+	 解释性<br>
+	面向对象		<br>
+	高性能<br>
+	分布式处理	<br>
+	多线程<br>
+	健壮性		<br>
+	动态<br>
+	结构中立		<br>
+	安全性<br>
+	开源<br>
+<strong>5.学习Java以后可以从事什么工作</strong><br>
+Android工程师、Web开发、Java开发工程师等等。</p>
 ]]></content>
     </entry>
 </feed>
