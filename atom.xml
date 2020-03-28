@@ -1,24 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://0y0l07.coding-pages.com</id>
+    <id>https://itdoudoublog.club</id>
     <title>程序员豆豆</title>
-    <updated>2020-03-27T02:16:23.314Z</updated>
+    <updated>2020-03-28T06:18:30.968Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://0y0l07.coding-pages.com"/>
-    <link rel="self" href="https://0y0l07.coding-pages.com/atom.xml"/>
+    <link rel="alternate" href="https://itdoudoublog.club"/>
+    <link rel="self" href="https://itdoudoublog.club/atom.xml"/>
     <subtitle>代码写不完，哪有脸睡觉！！</subtitle>
-    <logo>https://0y0l07.coding-pages.com/images/avatar.png</logo>
-    <icon>https://0y0l07.coding-pages.com/favicon.ico</icon>
+    <logo>https://itdoudoublog.club/images/avatar.png</logo>
+    <icon>https://itdoudoublog.club/favicon.ico</icon>
     <rights>All rights reserved 2020, 程序员豆豆</rights>
     <entry>
+        <title type="html"><![CDATA[数据结构和算法学习笔记01]]></title>
+        <id>https://itdoudoublog.club/post/shu-ju-jie-gou-he-suan-fa-xue-xi-bi-ji-01/</id>
+        <link href="https://itdoudoublog.club/post/shu-ju-jie-gou-he-suan-fa-xue-xi-bi-ji-01/">
+        </link>
+        <updated>2018-08-01T06:14:53.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>1.1什么是数据结构</strong><br>
+数据结构是计算机存储、组织数据的方式<br>
+<strong>1.2数据结构的分类</strong><br>
+把数据结构分为逻辑结构和物理结构两大类。<br>
+逻辑结构分类:</p>
+<ol>
+<li>集合结构(属于同一个集合)；</li>
+<li>线性结构(一对一)；</li>
+<li>树形结构(一对多)；</li>
+<li>图形结构(多对多)；<br>
+物理结构分类：</li>
+<li>顺序存储结构(把数据元素放到地址连续的存储单元)；</li>
+<li>链式存储结构(把数据元素存放在任意的存储单元里面，这组存储单元可以是连续的也可以是不连续的)。<br>
+<strong>1.3什么是算法</strong><br>
+算法是指解题方案的准确而完整的描述，是一系列解决问题的清晰指令，算法代表着用系统的方法描述解决问题的策略机制。<br>
+<strong>1.4时间复杂度</strong><br>
+时间复杂度是描述该算法的运行时间，常用大O符号表述。<br>
+<strong>1.5时间复杂度结论</strong><br>
+结论一:随着输入规模的增大，算法的常数操作可以忽略不计。<br>
+例如：<br>
+O(n+1) 因为1为常数，所以可以省略<br>
+结论二: 随着输入规模的增大，与最高次项相乘的常数可以忽略]<br>
+O(6n)因为6为最高次项相乘的常数，所以可以省略。<br>
+结论三:最高次项的指数大的，随着n的增长，结果也会变得增长特别快</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Java基础01]]></title>
-        <id>https://0y0l07.coding-pages.com/post/java-ji-chu-01/</id>
-        <link href="https://0y0l07.coding-pages.com/post/java-ji-chu-01/">
+        <id>https://itdoudoublog.club/post/java-ji-chu-01/</id>
+        <link href="https://itdoudoublog.club/post/java-ji-chu-01/">
         </link>
         <updated>2017-03-01T01:53:17.000Z</updated>
         <content type="html"><![CDATA[<p><strong>1.什么是Java语言</strong><br>
 Java语言是美国Sun公司（Stanford University Network），在1995年推出的高级的编程语言。所谓编程语言，是 计算机的语言，人们可以使用编程语言对计算机下达命令，让计算机完成人们需要的功能。<br>
-<img src="https://0y0l07.coding-pages.com/post-images/1585274070539.jpg" alt="" loading="lazy"><br>
+<img src="https://itdoudoublog.club/post-images/1585274070539.jpg" alt="" loading="lazy"><br>
 Java创始人之一：詹姆斯·高斯林</p>
 <p><strong>2.Java语言的发展史(了解)</strong><br>
 	1995年Sun公司发布Java1.0版本<br>
