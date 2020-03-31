@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://itdoudoublog.club</id>
     <title>程序员豆豆</title>
-    <updated>2020-03-28T06:18:30.968Z</updated>
+    <updated>2020-03-31T02:13:21.707Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://itdoudoublog.club"/>
     <link rel="self" href="https://itdoudoublog.club/atom.xml"/>
@@ -20,13 +20,13 @@
 数据结构是计算机存储、组织数据的方式<br>
 <strong>1.2数据结构的分类</strong><br>
 把数据结构分为逻辑结构和物理结构两大类。<br>
-逻辑结构分类:</p>
+**1.2.1逻辑结构分类: **</p>
 <ol>
 <li>集合结构(属于同一个集合)；</li>
 <li>线性结构(一对一)；</li>
 <li>树形结构(一对多)；</li>
 <li>图形结构(多对多)；<br>
-物理结构分类：</li>
+<strong>1.2.2物理结构分类：</strong></li>
 <li>顺序存储结构(把数据元素放到地址连续的存储单元)；</li>
 <li>链式存储结构(把数据元素存放在任意的存储单元里面，这组存储单元可以是连续的也可以是不连续的)。<br>
 <strong>1.3什么是算法</strong><br>
@@ -39,7 +39,29 @@
 O(n+1) 因为1为常数，所以可以省略<br>
 结论二: 随着输入规模的增大，与最高次项相乘的常数可以忽略]<br>
 O(6n)因为6为最高次项相乘的常数，所以可以省略。<br>
-结论三:最高次项的指数大的，随着n的增长，结果也会变得增长特别快</li>
+结论三:最高次项的指数大的，随着n的增长，结果也会变得增长特别快<br>
+<strong>1.6常见的时间复杂度 **<br>
+<code>O(1)&lt;O(logn)&lt;O(n)&lt;O(nlogn)&lt;O(n^2)&lt;O(n^3)</code><br>
+**  1.7空间复杂度</strong><br>
+描述算法对内存的占用。<br>
+<strong>1.8Java常见的内存占用</strong><br>
+<strong>1.8.1基本数据类型内存占用情况：</strong><br>
+<img src="https://itdoudoublog.club/post-images/1585620618961.png" alt="" loading="lazy"><br>
+<strong>1.8.2计算机访问内存的方式都是一次一个字节</strong><br>
+<img src="https://itdoudoublog.club/post-images/1585620636056.png" alt="" loading="lazy"><br>
+<strong>1.8.3一个引用（机器地址）需要8个字节表示：</strong><br>
+例如： Date date = new Date(),则date这个变量需要占用**<code>8</code><strong>个字节来表示<br>
+<strong>1.8.4创建对象消耗多少开销</strong><br>
+创建一个对象，比如new Date()，除了Date对象内部存储的数据(例如年月日等信息)占用的内存，该对象本身也有内存开销，每个对象的自身开销是</strong>16**个字节，用来保存对象的头信息。<br>
+1.8.5一般内存的使用，如果不够8个字节，都会被自动填充为8字节<br>
+<code>public class A{ public int a = 1; }</code><br>
+通过new A ()创建一个对象的内存占用情况：</li>
+</ol>
+<ol>
+<li>整体成员变量a占4个字节;</li>
+<li>对象本身占用16个字节;<br>
+<strong>那么创建该对象共需20个字节，但由于不满为8的倍数，会自动填充成24个字节。</strong><br>
+<strong>1.9时间复杂度的结论，在空间复杂度照常适用</strong></li>
 </ol>
 ]]></content>
     </entry>
